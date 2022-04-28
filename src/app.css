@@ -1,0 +1,8 @@
+.footer {
+  font-family: inherit;
+  font-size: large;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
