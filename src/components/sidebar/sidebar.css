@@ -2,11 +2,12 @@
   flex: 3;
   margin: 20px;
   padding-bottom: 30px;
-  background-color: #fdfbfb;
+  background-color: hsl(0, 0%, 30%);
   border-radius: 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  color: white;
 }
 
 .sidebarItem {
@@ -21,9 +22,9 @@
   width: 80%;
   border-top: 1px solid #a7a4a4;
   border-bottom: 1px solid #a7a4a4;
-  font-family: "Varela Round", sans-serif;
+  font-family: 'Varela Round', sans-serif;
   font-size: 12px;
-  color: #222;
+  color: antiquewhite;
   font-weight: 600;
   line-height: 20px;
   text-align: center;
@@ -57,8 +58,8 @@
   justify-content: center;
 }
 
-.sidebarIcon{
-    font-size: 16px;
-    margin-left: 10px;
-    cursor: pointer;
+.sidebarIcon {
+  font-size: 16px;
+  margin-left: 10px;
+  cursor: pointer;
 }

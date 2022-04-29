@@ -1,12 +1,13 @@
 .top {
   width: 100%;
   height: 50px;
-  background-color: white;
+  background-color: hsl(0, 0%, 20%);
+  color: whitesmoke;
   position: sticky;
   top: 0;
   display: flex;
   align-items: center;
-  font-family: "Josefin Sans", sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
   z-index: 999;
 }
 
@@ -25,7 +26,6 @@
 .topIcon {
   font-size: 20px;
   margin-right: 10px;
-  color: #444;
   cursor: pointer;
 }
 
@@ -54,7 +54,6 @@
 
 .topSearchIcon {
   font-size: 18px;
-  color: #666;
   cursor: pointer;
   margin-left: 15px;
 }

@@ -1,3 +1,4 @@
-.single{
-    display: flex;
+.single {
+  display: flex;
+  background-color: hsl(0, 0%, 20%);
 }

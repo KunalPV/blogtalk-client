@@ -18,7 +18,7 @@ export default function Sidebar() {
       <div className="sidebarItem">
         <span className="sidebarTitle">ABOUT ME</span>
         <img
-          src="https://i.pinimg.com/236x/1e/3f/58/1e3f587572a7a7b20bbf1828595a1786--holiday-party-themes-holiday-gift-guide.jpg"
+          src="https://icon2.cleanpng.com/20180320/pcq/kisspng-computer-icons-blogger-wordpress-com-symbols-blogger-logo-5ab0b43ecf5414.7869968515215299188492.jpg"
           alt=""
         />
         <p>
@@ -26,7 +26,7 @@ export default function Sidebar() {
           necessitatibus nostrum illum reprehenderit.
         </p>
       </div>
-      <div className="sidebarItem">
+      {/* <div className="sidebarItem">
         <span className="sidebarTitle">CATEGORIES</span>
         <ul className="sidebarList">
           {cats.map((c) => (
@@ -37,7 +37,7 @@ export default function Sidebar() {
             </Link>
           ))}
         </ul>
-      </div>
+      </div> */}
       <div className="sidebarItem">
         <span className="sidebarTitle">FOLLOW US</span>
         <div className="sidebarSocial">

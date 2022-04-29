@@ -1,5 +1,7 @@
 .singlePost {
   flex: 9;
+  background-color: hsl(0, 0%, 20%);
+  height: 100vh;
 }
 
 .singlePostWrapper {
@@ -19,17 +21,18 @@
 .singlePostTitle {
   text-align: center;
   margin: 10px;
-  font-family: "Lora", serif;
+  font-family: 'Lora', serif;
   font-size: 28px;
+  color: whitesmoke;
 }
 
 .singlePostTitleInput {
   margin: 10px;
-  font-family: "Lora", serif;
+  font-family: 'Lora', serif;
   font-size: 28px;
   text-align: center;
   border: none;
-  color: gray;
+  color: white;
   border-bottom: 1px solid lightgray;
 }
 
@@ -60,12 +63,12 @@
   display: flex;
   justify-content: space-between;
   font-size: 16px;
-  font-family: "Varela Round", sans-serif;
+  font-family: 'Varela Round', sans-serif;
   color: #b39656;
 }
 
 .singlePostDesc {
-  color: #666;
+  color: lightgray;
   font-size: 18px;
   line-height: 25px;
 }
