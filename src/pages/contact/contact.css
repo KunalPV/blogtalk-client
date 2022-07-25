@@ -1,0 +1,80 @@
+.contact {
+  background-color: hsl(0, 0%, 20%);
+  width: 100%;
+  height: 86vh;
+  /* display: flex; */
+  padding: 50px 0 0 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+#container {
+  margin: auto;
+  width: 500px;
+}
+
+.form-wrap {
+  background: hsl(0, 0%, 90%);
+  color: black;
+  padding: 15px 25px;
+}
+
+.form-wrap h1,
+.form-wrap p {
+  text-align: center;
+}
+
+.form-group {
+  margin-top: 15px;
+}
+
+.form-wrap,
+.form-group label {
+  display: block;
+}
+
+.form-wrap,
+.form-group input {
+  width: 95%;
+  padding: 10px;
+  border: 1px black solid;
+  border-radius: 5px;
+  background: hsl(0, 0%, 90%);
+}
+
+.form-group textarea {
+  border: 1px black solid;
+  border-radius: 5px;
+  background: hsl(0, 0%, 90%);
+}
+
+.btn {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-top: 20px;
+  border: 1px solid #666;
+  border-radius: 5px;
+  background: hsl(0, 0%, 30%);
+  cursor: pointer;
+  color: white;
+}
+
+.btn:hover {
+  background: hsl(0, 0%, 20%);
+}
+
+.bottom-text {
+  margin-top: 15px;
+  font-size: 13px;
+}
+
+.contact-submitted {
+  display: flex;
+  color: hsl(0, 0%, 90%);
+  align-items: center;
+  justify-content: center;
+  padding-top: 50px;
+}
